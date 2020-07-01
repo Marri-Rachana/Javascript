@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+<title>
+REGISTRATION PAGE
+</title>
+<script type="text/javascript" src="registration-script.js"></script>
+</head>
+<body style="background-image:url(back.jpg);">
+	<center>
+		<h1 style="color:black;font-family:serif;">WELCOME TO REGISTRATION PAGE</h1>
+		<form name="myform" action="#" onsubmit="return validation()">
+			<fieldset>
+				<legend>ENTER YOUR DETAILS HERE</legend>
+				First Name:<input type="text" name="fname" id="fname" placeholder="First Name"><br><br>
+				Last Name:<input type="text" name="sname" id="sname" placeholder="Last Name"><br><br>
+				E-mail id:<input type="E-mail" name="E-mail" id="e-mail" placeholder="e-mail"><br><br>
+				Number:<input type="tel" name="phone" id="mobile-number" placeholder="mobile-number"><br><br>
+				Password:<input type="Password" name="pwd" id="pwd" placeholder="Password"><br><br>
+			    Password:<input type="Password" name="pwd1" id="pwd1" placeholder="Re-type Password"><br><br>
+			    Select Your Gender:<br><br>
+			    <input type="radio" name="sex" id="sex1" value="sex1"> male
+			    <input type="radio" name="sex" id="sex2" value="sex2"> female
+			    <input type="radio" name="sex" id="sex3" value="sex3"> others <br><br>
+			    Choose Your Stream:<br>
+			    <select name="branch" id="branch">
+			    	<option value="default">default</option>
+			    	<option value="cse">CSE</option>
+			    	<option value="ece">ECE</option>
+			    	<option value="mech">MECH</option>
+			    	<option value="eee">EEE</option>
+			    	<option value="ce">CE</option>
+			    	<option value="it">IT</option>
+			    </select><br><br>
+			    Address here:<br><br>
+			    <textarea rows="5" cols="30" name="Address" id="address" placeholder="Address"></textarea><br><br>
+			    Terms and Conditions:<br><br>
+			    I Agree<input type="radio" name="tc" id="tc1">
+			    Not Agree<input type="radio" name="tc" id="tc2"><br><br>
+			    <input type="reset" name="reset">
+			    <input type="submit" name="done">
+
+			</fieldset>
+		</form>
+             
+		Already Existing User Please Login here:<a href="login.html"><button>LOGIN</button></a>
+
+	</center>
+</body>
+</html>
